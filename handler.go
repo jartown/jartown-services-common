@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"gitlab.com/diancai/diancai-services-common/derror"
+	"github.com/singkorn/jartown-services-common/derror"
 )
 
 func HandlerReturnError(c *gin.Context, err error) {

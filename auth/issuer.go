@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	common "gitlab.com/diancai/diancai-services-common"
+	common "github.com/singkorn/jartown-services-common"
 )
 
 func IssueToken(issuer string, userDataI interface{}) (TokenExpires, error) {

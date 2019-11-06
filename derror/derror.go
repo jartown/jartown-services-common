@@ -1,6 +1,6 @@
 package derror
 
-import "gitlab.com/diancai/diancai-services-common/log"
+import "github.com/singkorn/jartown-services-common/log"
 
 type Derror struct {
 	Err        error  `json:"-"`

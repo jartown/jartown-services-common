@@ -1,4 +1,4 @@
-module gitlab.com/diancai/diancai-services-common
+module github.com/singkorn/jartown-services-common
 
 go 1.12
 

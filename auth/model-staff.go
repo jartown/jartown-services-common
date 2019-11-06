@@ -1,7 +1,7 @@
 package auth
 
 import (
-	common "gitlab.com/diancai/diancai-services-common"
+	common "github.com/singkorn/jartown-services-common"
 	"golang.org/x/crypto/bcrypt"
 )
 

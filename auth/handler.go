@@ -5,8 +5,8 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	common "gitlab.com/diancai/diancai-services-common"
-	"gitlab.com/diancai/diancai-services-common/derror"
+	common "github.com/singkorn/jartown-services-common"
+	"github.com/singkorn/jartown-services-common/derror"
 )
 
 func MiddlewareAuthentication(c *gin.Context) {

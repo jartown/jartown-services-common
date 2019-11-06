@@ -37,8 +37,8 @@ const (
 )
 
 var excludePkgName = map[string]bool{
-	"gitlab.com/diancai/diancai-services-common/log":    true,
-	"gitlab.com/diancai/diancai-services-common/derror": true,
+	"github.com/singkorn/jartown-services-common/log":    true,
+	"github.com/singkorn/jartown-services-common/derror": true,
 }
 
 func new() *logrus.Logger {
