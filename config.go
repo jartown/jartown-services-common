@@ -42,7 +42,7 @@ func ConfigInit(conf interface{}) error {
 		confFile = os.Getenv("DIANCAI_CONFIG_FILE")
 	}
 	if confFile == "" {
-		confFile = "./res/config.yml"
+		confFile = "../res/config.yml"
 	}
 
 	return configLoad(confFile, conf)
