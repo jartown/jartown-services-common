@@ -23,3 +23,7 @@ func (m *MockTime) Now() time.Time {
 func (m *MockTime) Set(t time.Time) {
 	m.Time = t
 }
+
+func (m *MockTime) NowNextWeek() time.Time {
+	return m.Time.Add(7 * 24 * time.Hour)
+}
