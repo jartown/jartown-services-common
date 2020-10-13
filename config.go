@@ -39,7 +39,7 @@ func ConfigInit(conf interface{}) error {
 		confFile = os.Args[1]
 	}
 	if confFile == "" {
-		confFile = os.Getenv("DIANCAI_CONFIG_FILE")
+		confFile = os.Getenv("JARTOWN_CONFIG_FILE")
 	}
 	if confFile == "" {
 		confFile = "../res/config.yml"
